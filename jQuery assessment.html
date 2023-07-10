@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    fieldset {
+        background-color: rgb(220, 220, 220);
+        border: none;
+    }
+
+    input {
+        margin: 5px;
+    }
+</style>
+
+<body>
+
+    <fieldset>
+        <table border="1" align="center">
+            <form method="post" action="andrew-dawes-rGLsts1loj4-unsplash.jpg" onsubmit="validdata()">
+                <tr>
+                    <td> First Name:</td>
+                    <td> <input type="text" name="name" id="name" placeholder="enter your first name"></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Last Name</label></td>
+                    <td> <input type="text" name="Last Name" id="last" placeholder="enter your last name"></td>
+                </tr>
+                <tr>
+                    <td> <label for=""> Enter your email</label></td>
+                    <td> <input type="text" name="email" id="email" placeholder="it should contain @"></td>
+                </tr>
+                <tr>
+                    <td> <label for=""> Enter your mobile</label></td>
+                    <td> <input type="text" name="Mobile" id="mobile" placeholder="only 10 digit are allowed"></td>
+                </tr>
+                <tr>
+                    <td> <label for=""> Gender</label></td>
+                    <td>
+                        <label for="">male</label>
+                        <input type="radio" name="" id="gender">
+                        <label for="">female</label>
+                        <input type="radio" name="" id="gender">
+                    </td>
+                <tr>
+                <tr>
+                    <td> <label for="">Select your DOB</label></td>
+                    <td><input type="date" name="" id="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="" id="address"> Address</label></td>
+                    <td><textarea placeholder="Address"></textarea></td>
+                </tr>
+                </td>
+                <tr>
+                    <td> <label for="">City</label></td>
+                    <td> <input type="text" name="" id="city"></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Area Pin</label></td>
+                    <td> <input type="text" name="" id="area"></td>
+                </tr>
+                <tr>
+                    <td> <label for="">State</label></td>
+                    <td> <input type="text" name="" id="state"></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Qualification </label></td>
+                    <td> <select name="">
+                            <option value="" selected="selected" disabled="disabled">Select Qualification</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td> <label for="">Specialization</label>
+
+                    <td><input type="checkbox" name="" id="specialization">
+                        <label for="">Drawing
+                    </td>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id="checkbox">
+                        <label for="">Computer Science
+                </tr>
+                </td>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id="checkbox">
+                        <label for="">Information Technology</label>
+                    </td>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id="checkbox">
+                        <label for="">Computer Architecture
+                    </td></label>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id="checkbox">
+                        <label for="">Tele Communication
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td> <label for=""> Password</label></td>
+                    <td> <input type="text" name="" id="pwd" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"> <input type="submit" value="submit"> </td>
+                </tr>
+
+
+            </form>
+
+        </table>
+    </fieldset>
+</body>
+
+</html>
+<script>
+    function validdata() {
+        var name = document.getElementById('name').value;
+        if (name == "") {
+            alert("Please enter name!");
+            document.getElementById('name').focus();
+            return false;
+        }
+        var last = document.getElementById('last').value;
+        if (last == "") {
+            alert("Please Enter Your Last Name!");
+            document.getElementById('last').focus();
+            return false;
+        }
+        var email = document.getElementById('email').value;
+        if (email == "") {
+            alert("Please Enter Your Email!");
+            document.getElementById('email').focus();
+            return false;
+        }
+        var mobile = document.getElementById('mobile').value;
+        if (mobile == "") {
+            alert("Please Enter Your Mobile!");
+            document.getElementById('mobile').focus();
+            return false;
+        }
+        var gender = document.getElementById('gender').value;
+        if (gender == "") {
+            alert("Please Select Gender!");
+            document.getElementById('gender').focus();
+            return false;
+        }
+        var dob = document.getElementById('dob').value;
+        if (dob == "") {
+            alert("Please Enter Date of Birth!");
+            document.getElementById('dob').focus();
+            return false;
+        }
+        var address = document.getElementById('address').value;
+        if (address == "") {
+            alert("Please Enter Address!");
+            document.getElementById('address').focus();
+            return false;
+        }
+        var area = document.getElementById('area').value;
+        if (area == "") {
+            alert("Please Enter Area!");
+            document.getElementById('area').focus();
+            return false;
+         }
+         var state = document.getElementById('state').value;
+        if (state == "") {
+            alert("Please Enter State!");
+            document.getElementById('state').focus();
+            return false;
+         }
+         var pwd = document.getElementById('pwd').value;
+        if (pwd == "") {
+            alert("Please Enter Password!");
+            document.getElementById('pwd').focus();
+            return false;
+        }
+        }
+</script>
