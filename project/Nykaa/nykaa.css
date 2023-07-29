@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Nav bar start  */
+
+img {
+    position: relative;
+}
+
+.left-header {
+    width: 50%;
+    position: absolute;
+    top: 7px;
+    left: 10%;
+    font-weight: 600;
+
+}
+
+.right-header {
+    position: absolute;
+    top: 7px;
+    left: 60%;
+    font-weight: 600;
+}
+
+.icon {
+    margin-right: 20px;
+    display: inline-block;
+}
+/* Navbar end  */
+
+/* Header start  */
+.navbar .container svg {
+    height: 50px;
+    width: 150px;
+}
+#one{
+    background-image: url(https://img.uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+/* Header end  */
+
+/* Categories start  */
+a {
+    text-decoration: none;
+}
+
+/* Categories end  */
+
+/* Main banner start  */
+.carousel-inner{
+    width: 800px;
+}
+.item{
+    margin-right: 10px;
+}
+/* Main banner end  */
+
+/* Second banner start  */
+
+.p-2 {
+    display: flex;
+}
+
+.hair-care {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+/* Second banner end  */
+
+/* Top Brands start  */
+
+.top-brands {
+    border: 2px solid #aeafb1b0;
+    border-radius: 1%;
+    margin-right: 10px;
+    /* overflow-x: hidden; */
+}
+
+.down-content {
+    color: #E80071;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subdown-content {
+    color: #5C6873;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.nykaa-daily {
+    border: 2px solid #aeafb1b0;
+    border-radius: 1%;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.carouseltitle {
+    color: #001325;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.carousel-item {
+    display: flex;
+}
+
+/* top brands end  */
+
+/* brand of ths day start  */
+.best-brand {
+    border: 2px solid #aeafb1b0;
+    border-radius: 1%;
+    margin-right: 10px;
+}
+
+/* brand of the day end  */
+
+/* best of Luxury start */
+.best-of-luxury {
+    background-color: rgba(239, 236, 236, 0.71);
+    ;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.best-of-luxury img {
+    align-items: center;
+    justify-content: center;
+}
+
+.image-brands img {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* best of luxury end  */
+
+/* featured brands start  */
+.featured-brands {
+    border: 2px solid #aeafb1b0;
+    border-radius: 1%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.featured-brands img {
+    width: 267px;
+}
+
+/* featured brands end  */
+
+/* only at nykaa start  */
+.only {
+    background-color: rgb(255, 246, 249);
+}
+
+.only img {
+    margin-right: 20px;
+}
+
+.only-at-nykaa {
+    border: 1px solid rgb(245, 142, 191);
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.only-at-nykaa .down-content {
+    color: #191818;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* only at nykaa end  */
+
+/* nykaa top 10 start  */
+.nykaa-top {
+    position: relative;
+    margin-right: 10PX;
+}
+
+.nykaa-top-down {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64));
+    padding: 0.75rem;
+    color: rgb(0, 19, 37);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.most-searched {
+    margin-right: 10px;
+}
+
+/* nykaa top 10 end  */
+
+/* category in focus start  */
+.category-focus {
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-bottom {
+    color: rgb(0, 19, 37);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* category in focus end  */
+
+/* brands u cant miss start  */
+.cant-miss {
+    margin-right: 20px;
+}
+
+/* <!-- brands u cant  miss end  --> */
+
+/* <!-- more categories for u start  --> */
+.more-categories {
+    background-color: rgb(243, 244, 246);
+}
+
+.categories {
+    margin-right: 20px;
+}
+
+/* more categories for u end  */
+
+/* new at nykaa start  */
+.new-at-nykaa {
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: px;
+    margin-right: 10px;
+}
+
+.product-name {
+    color: rgb(20, 38, 54);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 5px;
+}
+
+/* <!-- new at nykaa end  --> */
+
+/* <!-- trendcast start  --> */
+
+.trencast {
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.trencast .subdown-content {
+    overflow: hidden;
+    margin-top: 5px;
+    text-decoration: #01070c;
+}
+
+/* <!-- trencast end  -->
+
+  <!-- influencers's picks start  --> */
+  p{
+    color: rgb(82, 99, 112);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+    line-height: initial;
+  }
+  .favourite-love{
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+  .favourite-love .subdown-content{
+   font-size: 24px; 
+   padding: 0;
+   padding-left: 7px;
+  }
+  .description{
+    color: rgb(92, 104, 115);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    overflow: hidden;
+    line-height: initial !important;
+    padding-left: 7px;
+  }
+  /* <!-- influencer's picks end  -->
+
+<!-- Buying guides start  --> */
+.buying-guides{
+    position: relative;
+    margin-right: 20px;
+}
+/* <!-- buying guides end  -->
+
+<!-- gifting at nykaa start  --> */
+.gifting{
+    margin-right: 20px;
+}
+/* <!-- gifting at nykaa end  -->
+
+  <!-- Pop Up start  --> */
+.pop-up{
+    position: relative;
+    margin-right: 20px;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 7px;
+}
+.pop-up .nykaa-top-down{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64));
+    padding: 0.75rem;
+    color: rgb(0, 19, 37);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    right: 0px;
+}
+/* pop up end  */
+
+/* footer stat  */
+
+.footer{
+    width: 100%;
+    margin-top: 10px;
+    background: #f3f3f3;
+    margin: 40px 0;
+    line-height: 20px;
+}
+.footer-1{
+    margin: 40px;
+    justify-content:center;
+    display: flex;
+}
+.footer-1 .subdown-content{
+    color: #fcfcfc;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 2px;
+    left: 10px;
+
+}
+.footer-2{
+    background-color: #8c8d94;
+    color: #fff;
+    padding: 45px 30px 70px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.about{
+    justify-content: center;
+    margin-left: 100px;
+}
+.about li{
+    list-style: none;
+    margin-left: 35px;
+}
+.about ul{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.about ul svg{
+    margin-top: -25px;
+}
+.footer-3{
+    margin-right: 80px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.footer-3 .subdown-content{
+    margin-left: -20px;
+    position: relative;
+    top: -40px;
+    left: 58px;
+}
+.css-z7ry7e {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 15px 10px 15px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+    top: -40px;
+    left: 39px;
+}
+.last-footer{
+    background-color: #E80071;
+    color: #ffffff;
+    border-top: 1px solid #fff;
+    text-align: center;
+    line-height: 18px;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+.last-footer li{
+list-style: none;
+padding-right:5px ;
+margin-left: 180px;
+text-align: center;
+justify-content: center;
+display: flex;
+padding-bottom: 20px;
+}
