@@ -1,0 +1,404 @@
+/* =============================================HEADER START ============================================= */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 400px;
+    background-color: rgb(72, 142, 203);
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 51px;
+    left: 47px;
+    width: 50%;
+    /* background-color: rgb(72, 142, 203); */
+}
+
+.delhivery {
+    position: absolute;
+    top: 33px;
+    right: 0px;
+    width: 50%;
+}
+
+.delhivery .fa-sharp {
+    position: absolute;
+    top: 25px;
+    right: 262px;
+
+}
+
+.delhivery .contact {
+    position: absolute;
+    top: 23px;
+    right: 113px;
+    font-weight: 600;
+    color: rgb(229, 204, 59);
+    font-size: 16px;
+}
+
+.navbar-nav {
+    padding: 12px;
+    margin: 39px 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-li {
+    font-size: 13px;
+    display: inline;
+    color: white;
+    margin-right: 10px;
+}
+
+.title {
+    position: absolute;
+    top: 239px;
+    left: 14%;
+    font-size: 60px;
+    color: red;
+    font-family: cursive;
+}
+
+.tomato-sauce {
+    position: absolute;
+    top: 139px;
+    left: 52%;
+    height: 158px
+}
+
+.waffel {
+    position: absolute;
+    top: 216px;
+    left: 393px;
+    height: 468px;
+
+}
+
+.tomato {
+    position: absolute;
+    top: 470px;
+    left: 7%;
+    height: 158px;
+}
+
+/* <!-- ==================================================HEADER END================================================================ --> */
+
+/* ================================================================OUR STORY START========================================================== */
+
+.our-story h2 {
+    font-size: 34px;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+
+}
+
+.our-story h1 {
+    font-size: 50px;
+    color: #f04b58;
+    font-family: "Gabelisa";
+    text-align: center;
+}
+
+.our-story h3 {
+    align-items: center;
+    text-align: center;
+    width: 770px;
+    line-height: 24px;
+    font-size: 15px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin: 43px 95px;
+}
+
+.berry-left {
+    left: 9%;
+    position: relative;
+    top: 90px;
+}
+
+.orange-half {
+    position: relative;
+    top: 79px;
+    left: 72%;
+    height: 132px;
+}
+
+.berry-right {
+    left: 78%;
+    bottom: 56px;
+    position: relative;
+}
+
+.read-more {
+    border: 1px solid burlywood;
+    width: 112px;
+    padding: 9px;
+    margin-left: 414px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Playfair Display";
+}
+
+.orange-full {
+    height: 176px;
+    position: absolute;
+}
+
+.waffel-wallpaper {
+    width: 100%;
+
+}
+
+.waffel-wallpaper-text {
+    position: absolute;
+    top: 169%;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Playfair Display";
+    margin-left: 284px;
+}
+
+.line-left {
+    position: absolute;
+    top: 177%;
+    left: 29%;
+    width: 151px;
+}
+
+.line-right {
+    position: absolute;
+    top: 177%;
+    left: 55%;
+    width: 151px;
+}
+
+.fork {
+    position: absolute;
+    top: 176%;
+    left: 48%;
+    height: 23px;
+}
+
+/* <!-- ==================================================================OUR STORY END ====================================================== -->
+
+<!-- =========================================================================SPECIAL OFFERS START ======================================================= --> */
+
+.special-offer {
+    display: flex;
+}
+
+.breakfast-img {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.breakfast-img img {
+    height: 406px;
+    padding: 20px;
+}
+
+/* .offer-menu{
+    width: 50%;
+} */
+.menu {
+    display: flex;
+}
+
+.offer-menu h3 {
+    font-size: 21px;
+    color: #3d3d3d;
+    font-weight: 550;
+    font-family: "Playfair Display";
+    text-align: left;
+    width: auto;
+    margin: 100px 26px 0 0;
+}
+
+.offer-menu h2 {
+    text-align: inherit;
+    color: red;
+    margin-bottom: 32px;
+}
+
+.breakfast h3 {
+    margin: 29px 10px 0 0;
+}
+
+.breakfast h5 {
+    font: menu;
+    color: gray;
+    width: 260px;
+}
+
+.price h4 {
+    color: #f04b58;
+    margin: 39px 0 66px 109px;
+}
+
+/* <!-- ==========================================================================SPECIAL OFFERS END===================================================== -->
+
+<!-- =============================================================================CTARING START====================================== --> */
+
+.catering {
+    display: flex;
+    margin-top: 60px;
+}
+
+.special-event {
+    width: 50%;
+}
+
+.special-event h3 {
+    margin-left: 77px;
+    font-family: emoji;
+
+}
+
+.special-event h2 {
+    text-align: inherit;
+    color: red;
+    margin-left: 77px;
+}
+
+.special-event h5 {
+    color: grey;
+    text-align: inherit;
+    width: 68%;
+    font-weight: 400;
+    margin: 22px 0 15px 77px;
+}
+
+.dot {
+    margin: 29px 77px;
+}
+
+.catering-img {
+    width: 50%;
+}
+
+.brush-left {
+    position: absolute;
+    width: 350px;
+    top: 2010px;
+    left: 43%;
+
+}
+
+.sandwich {
+    position: absolute;
+    top: 2003px;
+    left: 54%;
+    height: 332px;
+
+}
+
+.brush-right {
+    position: absolute;
+    width: 350px;
+    top: 2097px;
+    left: 62%;
+    transform: rotate(186deg);
+}
+
+/* <!-- ================================================================CATERING END========================================================== --> */
+
+/* <!-- ===================================================================RESERVATION START===================================================== --> */
+
+.reservation {
+    margin-top: 80px;
+
+}
+
+.reservation h2 {
+    text-align: center;
+}
+
+.reservation h1 {
+    text-align: center;
+    color: red;
+    font-family: cursive;
+
+}
+
+td {
+    border: 1px solid rgba(90, 90, 90, 0.467);
+    text-align: center;
+    padding: 10px 117px;
+}
+
+table {
+    margin: 43px 180px;
+}
+
+
+.footer-waffel {
+    position: absolute;
+    top: 353%;
+    height: 215px;
+}
+
+.footer-bg {
+    margin-top: 35px;
+    width: 96%;
+    padding: 17px;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 374%;
+    left: 41%;
+    width: 167px;
+}
+.footer-location{
+    position: absolute;
+    top: 383%;
+    left: 48%;
+    height: 24px;
+}
+.footer h4{
+    color: rgba(230, 230, 230, 0.906);
+        position: absolute;
+        top: 388%;
+        left: 36%;
+        font-family: auto
+}
+.footer-email{
+    position: absolute;
+    top: 393%;
+    left: 48%;
+    width: 19px
+}
+span{
+    color: rgb(239, 236, 236);
+    position: absolute;
+    top: 396%;
+    left: 40%;
+    font-family: auto
+}
+.company{
+    position: absolute;
+    top: 411%;
+    left: 3%;
+    color: rgb(239, 236, 236);
+    font-family: auto;
+    font-size: 12px;
+}
+.icon{
+    position: absolute;
+    top: 410%;
+    left: 84%;
+    width: 100px;  
+}

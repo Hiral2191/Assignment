@@ -1,0 +1,201 @@
+/* /* =====================================================FOR LAPTOP ========================================================= * */
+
+@media screen and (max-width:1024px) {
+    .nav{
+        margin-left: 28px;
+    }
+   
+    .waffel {
+        position: absolute;
+        top: 216px;
+        left: 451px;
+        height: 468px;
+    }
+    .waffel-wallpaper-text {
+        top: 194%;
+    }
+    .fork{
+        top: 205%;
+    }
+    .line-left , .line-right{
+        top: 205%;
+    }
+    .catering{
+        margin-top: 110px;
+    }
+    .brush-left, .brush-right, .sandwich{
+        margin-top: 96px;
+    }
+    .footer-waffel {
+        top: 417%;
+    }
+    .footer-logo{
+        top: 441%;
+    }
+    .footer-location{
+        top: 452%;
+    }
+    .footer h4{    top: 457%;
+    }
+    .footer-email{top: 462%;
+    }
+    span{
+        top: 466%;
+    }
+    .company , .icon{
+        top: 484%;
+    }
+
+}
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+        .nav {
+            margin-left: 5px;
+        }
+        .nav-li {
+            font-size: 7px;
+        }
+        .title {
+            position: absolute;
+            top: 198px;
+            left: 10%;
+            font-size: 46px;
+            color: red;
+            font-family: cursive;
+        }
+        .tomato-sauce {
+            position: absolute;
+            top: 139px;
+            left: 48%;
+            height: 126px;
+        }
+    .waffel{
+        position: absolute;
+        top: 185px;
+        left: 340px;
+        height: 351px;
+    }
+    .tomato {
+        position: absolute;
+        top: 370px;
+        left: 7%;
+        height: 126px;
+    }
+    .our-story{
+        margin-top: -28px;
+    }
+    .our-story h3{
+        width: 607px;
+    }
+    .read-more{
+        margin-left: 324px;
+    }
+    .berry-left , .berry-right{
+        height: 44px;
+
+    }
+    .waffel-wallpaper-text {
+        position: absolute;
+        top: 159%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 33px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Playfair Display";
+        margin-left: 252px;
+    }
+    .line-left , .line-right , .fork{
+        top: 169%;
+    }
+    .fork{
+        left: 50%;
+    }
+    .breakfast-img img {
+        height: 312px;
+        padding: 20px;
+    }
+    .offer-menu{
+        margin-top: 0;
+    }
+    .offer-menu h3 {
+        font-size: 16px;
+        color: #3d3d3d;
+        font-weight: 550;
+        font-family: "Playfair Display";
+        text-align: left;
+        width: auto;
+        margin: 32px 9px 0 0;
+    }
+    .price h4 {
+        color: #f04b58;
+        margin: 41px 0 66px 49px;
+    }
+    .brush-left {
+        position: absolute;
+        width: 249px;
+        top: 1659px;
+        left: 39%;
+    }
+    .brush-right {
+        position: absolute;
+        width: 280px;
+        top: 1741px;
+        left: 62%;
+        transform: rotate(186deg);
+    }
+    .sandwich {
+        position: absolute;
+        top: 1664px;
+        left: 54%;
+        height: 244px;
+    }
+    table {
+        margin: 33px 105px;
+    }
+    .footer-waffel {
+        top: 367%;
+        height: 166px;
+    }
+    .footer-logo {
+        position: absolute;
+        top: 386%;
+        left: 41%;
+        width: 133px;
+    }
+    .footer-location {
+        position: absolute;
+        top: 394%;
+        left: 48%;
+        height: 18px;
+    }
+    .footer h4 {
+        color: rgba(230, 230, 230, 0.906);
+        position: absolute;
+        top: 397%;
+        left: 34%;
+        font-family: auto;
+    }
+    .footer-email {
+        position: absolute;
+        top: 404%;
+        left: 48%;
+        
+        width: 19px;
+    }
+    span {
+        color: rgb(239, 236, 236);
+        position: absolute;
+        top: 407%;
+        left: 38%;
+        font-family: auto;
+    }
+    .company, .icon {
+        top: 417%;
+    }
+    
+}
+}
